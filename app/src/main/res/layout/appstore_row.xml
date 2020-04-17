@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300px"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/appstore_list_group_test">
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:id="@+id/appstore_list_thumbnail_test"/>
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingLeft="30px"
+                android:text="앱명"
+                android:id="@+id/appstore_list_appName_test"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingLeft="30px"
+                android:text="관계사명"
+                android:id="@+id/appstore_list_company_test"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingLeft="30px"
+                android:text="업데이트 날짜"
+                android:id="@+id/appstore_list_update_test"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:paddingRight="60px"
+                android:text="다운로드"
+                android:id="@+id/appstore_list_install_test"
+                android:textColor="#009192" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/appstore_list_new_test"
+            android:layout_width="0px"
+            android:layout_height="63px"
+            android:layout_weight="0.5"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+</LinearLayout>
