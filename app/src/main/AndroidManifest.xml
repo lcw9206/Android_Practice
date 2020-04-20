@@ -18,8 +18,8 @@
         </activity>
 
         <!--Activity 사용을 위한 선언-->
-        <activity android:name=".appstore.AppStoreActivity">
-        </activity>
+        <activity android:name=".appstore.AppStoreActivity"
+            android:label="앱스토어" />
     </application>
 
 </manifest>

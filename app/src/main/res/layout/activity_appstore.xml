@@ -10,13 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
+        android:background="@drawable/title_bar"
         android:id="@+id/appstore_title_group_test">
 
         <ImageButton
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@+id/appstore_title_back_test"/>
+            android:src="@drawable/btn_before_n"
+            android:id="@+id/appstore_back_btn"/>
 
         <TextView
             android:layout_width="0px"
