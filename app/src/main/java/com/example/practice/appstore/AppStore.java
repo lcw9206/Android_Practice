@@ -5,7 +5,7 @@ import android.widget.ImageView;
 import java.net.URL;
 
 // 앱 정보를 담아놓는 Model
-public class Appstore {
+public class AppStore {
 
     public String appName;
     public String companyName;
@@ -62,5 +62,11 @@ public class Appstore {
                 ", appImage=" + appImage + '\'' +
                 ", downloadUrl=" + downloadUrl  +
                 '}';
+    }
+
+    public AppStore(String appName, String companyName, String updateDate) {
+        this.appName = appName;
+        this.companyName = companyName;
+        this.updateDate = updateDate;
     }
 }
